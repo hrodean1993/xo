@@ -1,0 +1,38 @@
+
+<html>
+    <head>
+        <title>js</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/TicTac.css">
+        <script src="js/newjs.js" defer></script>
+    </head>
+
+    <body >
+
+        <div id="game">
+            <div class="xo">
+                <div id = "player" class="choice" onclick="">X</div>
+                <div id = "comp" class="choice" onclick="">O</div>
+            </div>
+            <div class="row">
+                <div id="g_0_0" class="cell" onclick="main(this)"> </div>
+                <div id="g_0_1" class="cell" onclick="main(this)"> </div>
+                <div id="g_0_2" class="cell" onclick="main(this)"> </div>
+            </div>
+            <div class="row">
+                <div id="g_1_0" class="cell" onclick="main(this)"> </div>
+                <div id="g_1_1" class="cell" onclick="main(this)"> </div>
+                <div id="g_1_2" class="cell" onclick="main(this)"> </div>
+            </div>
+            <div class="row">
+                <div id="g_2_0" class="cell" onclick="main(this)"> </div>
+                <div id="g_2_1" class="cell" onclick="main(this)"> </div>
+                <div id="g_2_2" class="cell" onclick="main(this)"> </div>
+            </div>     
+            <div id="newGame" onclick="resetGame()">NEW GAME</div>
+        </div>
+        <div id = "result" onclick="resetGame()"></div>
+
+    </body>
+</html>
